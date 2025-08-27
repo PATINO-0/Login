@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-slate-100 flex items-center justify-center p-4">
       <div className="w-full max-w-6xl bg-white rounded-[24px] shadow-sm border border-slate-200 grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden">
-        {/* Columna izquierda: imagen grande */}
+        
         <div className="bg-slate-50 p-6 lg:p-8 flex items-center justify-center">
           <div className="w-full max-w-[520px] aspect-[4/5] bg-white rounded-[28px] border border-slate-200 overflow-hidden flex items-center justify-center">
             <Image
@@ -18,7 +18,7 @@ export default function Page() {
           </div>
         </div>
 
-        {/* Columna derecha: formulario */}
+        
         <div className="px-6 py-10 lg:px-14 flex items-center">
           <div className="w-full max-w-sm mx-auto">
             <div className="flex items-center justify-between mb-6">
@@ -29,10 +29,10 @@ export default function Page() {
             <h1 className="text-4xl font-semibold text-slate-900">Sign in</h1>
             <p className="mt-2 text-slate-500">Sign in with Open account</p>
 
-            {/* Botones sociales */}
+            
             <div className="mt-4 grid grid-cols-2 gap-3">
               <button className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-4 py-2.5 hover:bg-slate-50">
-                {/* Logo Google (simple G) */}
+                
                 <svg width="18" height="18" viewBox="0 0 48 48" className="opacity-80">
                   <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.9 32.9 29.4 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.4 6.2 29.5 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.2-.1-2.3-.4-3.5z"/>
                   <path fill="#FF3D00" d="M6.3 14.7l6.6 4.9C14.7 16.2 19 13.5 24 13.5c3 0 5.8 1.1 7.9 3l5.7-5.7C34.4 6.2 29.5 4 24 4 16.2 4 9.5 8.4 6.3 14.7z"/>
@@ -42,7 +42,7 @@ export default function Page() {
                 Google
               </button>
               <button className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-4 py-2.5 hover:bg-slate-50">
-                {/* Logo Apple minimal */}
+                
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-slate-800 opacity-90">
                   <path d="M16.365 1.43c0 1.14-.468 2.193-1.232 2.96-.78.78-1.86 1.31-2.98 1.23-.06-1.1.45-2.21 1.22-2.98.78-.78 1.92-1.31 2.99-1.21zm3.44 16.14c-.65 1.47-1.44 2.94-2.59 2.96-1.1.03-1.45-.71-2.7-.71-1.24 0-1.64.69-2.68.74-1.07.05-1.88-1.32-2.54-2.79-1.38-3.02-1.52-6.58-.34-8.47.95-1.52 2.45-2.41 4.15-2.41 1.22 0 2.37.77 3.16.77.75 0 1.98-.86 3.35-.74.57.02 2.18.23 3.22 1.72-.08.05-1.93 1.13-1.93 3.37 0 2.66 2.36 3.57 2.4 3.59-.02.07-.38 1.32-1.2 2.34z"/>
                 </svg>
